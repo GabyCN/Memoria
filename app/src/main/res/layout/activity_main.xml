@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvBoxFIVE" />
 
     <TextView
-        android:id="@+id/tbBoxEIGHT"
+        android:id="@+id/tvBoxEIGHT"
         android:layout_width="@dimen/tamaño_caja"
         android:layout_height="@dimen/tamaño_caja"
         android:layout_marginStart="@dimen/margen"
