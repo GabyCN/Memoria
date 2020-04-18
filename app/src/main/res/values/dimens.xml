@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamaño_caja">130dp</dimen>
+    <dimen name="margen">16dp</dimen>ç
+    <dimen name="margen_TOP">28dp</dimen>
+</resources>
