@@ -24,12 +24,12 @@
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\drawable\\la0.jpg"
     },
     {
-        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",

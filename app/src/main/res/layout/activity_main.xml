@@ -10,7 +10,7 @@
         android:id="@+id/tvBoxONE"
         android:layout_width="@dimen/tamaño_caja"
         android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginTop="@dimen/margen_TOP"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/margen"
         android:background="@drawable/corazon"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:layout_width="@dimen/tamaño_caja"
         android:layout_height="@dimen/tamaño_caja"
         android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="@dimen/margen_TOP"
+        android:layout_marginTop="16dp"
         android:background="@drawable/corazon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
