@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
 
     var mutableList: MutableList<Int> = mutableListOf()
     var num: MutableList<Int> = mutableListOf(0)
-    var cosa: MutableList<Int> = mutableListOf()
-    var nombre: MutableList<View> = mutableListOf()
-    var nuevaImagen: MutableList<Int> = mutableListOf()
+   // var cosa: MutableList<Int> = mutableListOf()
+   // var nombre: MutableList<View> = mutableListOf()
+    // var nuevaImagen: MutableList<Int> = mutableListOf()
     val imagenes: MutableList<Int> = mutableListOf(R.drawable.la0,R.drawable.la1, R.drawable.la2, R.drawable.la3,
         R.drawable.la0,R.drawable.la1, R.drawable.la2,R.drawable.la3)
-    var prueba :Int = 0
+   // var prueba :Int = 0
 
 
 
@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
         if (num.first() == 0) {
             num.clear()
             num.add(0,1)
-            cosa.add(0,mutableList.last())
+            //cosa.add(0,mutableList.last())
 
 
 
