@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvBoxONE"
+        android:id="@+id/tvBoxTWO"
         android:layout_width="@dimen/tamaño_caja"
         android:layout_height="@dimen/tamaño_caja"
         android:layout_marginTop="16dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvBoxTWO"
+        android:id="@+id/tvBoxONE"
         android:layout_width="@dimen/tamaño_caja"
         android:layout_height="@dimen/tamaño_caja"
         android:layout_marginStart="@dimen/margen"
