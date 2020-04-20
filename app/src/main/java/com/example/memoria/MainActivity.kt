@@ -2,6 +2,7 @@ package com.example.memoria
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
@@ -97,7 +98,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            Toast.makeText(this, "num: $num, lista $mutableList, prueba: $prueba", Toast.LENGTH_LONG).show()
+            //Toast.makeText(this, "num: $num, lista $mutableList, prueba: $prueba", Toast.LENGTH_LONG).show()
 
         } else {
 
@@ -109,20 +110,33 @@ class MainActivity : AppCompatActivity() {
                 num.clear()
                 num.add(0,0)
 
-                Toast.makeText(this, " IF 1 num: $num lista: $mutableList ", Toast.LENGTH_LONG)
-                    .show()
+                //Toast.makeText(this, " IF 1 num: $num lista: $mutableList ", Toast.LENGTH_LONG).show()
 
             } else {
 
 
-                tvBoxONE.setBackgroundResource(R.drawable.corazon)
+                Handler().postDelayed(
+                    {
+                        tvBoxONE.setBackgroundResource(R.drawable.corazon)
+                        tvBoxTWO.setBackgroundResource(R.drawable.corazon)
+                        tvBoxThree.setBackgroundResource(R.drawable.corazon)
+                        tvBoxFOUR.setBackgroundResource(R.drawable.corazon)
+                        tvBoxFIVE.setBackgroundResource(R.drawable.corazon)
+                        tvBoxSIX.setBackgroundResource(R.drawable.corazon)
+                        tvBoxSEVEN.setBackgroundResource(R.drawable.corazon)
+                        tvBoxEIGHT.setBackgroundResource(R.drawable.corazon)
+                    },
+                    1000 // value in milliseconds
+                )
+
+               /* tvBoxONE.setBackgroundResource(R.drawable.corazon)
                 tvBoxTWO.setBackgroundResource(R.drawable.corazon)
                 tvBoxThree.setBackgroundResource(R.drawable.corazon)
                 tvBoxFOUR.setBackgroundResource(R.drawable.corazon)
                 tvBoxFIVE.setBackgroundResource(R.drawable.corazon)
                 tvBoxSIX.setBackgroundResource(R.drawable.corazon)
                 tvBoxSEVEN.setBackgroundResource(R.drawable.corazon)
-                tvBoxEIGHT.setBackgroundResource(R.drawable.corazon)
+                tvBoxEIGHT.setBackgroundResource(R.drawable.corazon)*/
                   /*  if (mutableList.elementAt(mutableList[a]) == 0) {
                     tvBoxONE.setBackgroundResource(R.drawable.corazon)
 
