@@ -24,12 +24,12 @@
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\drawable\\la0.jpg"
     },
     {
-        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -60,6 +60,10 @@
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\drawable\\la3.jpg"
     },
     {
+        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_memoria2x3.xml.flat",
+        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\layout\\activity_memoria2x3.xml"
+    },
+    {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -82,6 +86,10 @@
     {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\drawable_la2.jpg.flat",
         "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\drawable\\la2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_memoria2x2.xml.flat",
+        "source": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\src\\main\\res\\layout\\activity_memoria2x2.xml"
     },
     {
         "merged": "C:\\Users\\carab\\AndroidStudioProjects\\Memoria\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

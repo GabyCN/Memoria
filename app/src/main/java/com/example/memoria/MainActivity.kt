@@ -32,9 +32,11 @@ class MainActivity : AppCompatActivity() {
 
 
                     when (radio.getId()) {
-                        R.id.rb2x2 -> {}
+                        R.id.rb2x2 -> {val intent=Intent(this,memoria2x2::class.java)
+                        startActivity(intent)}
 
-                        R.id.rb2x3 ->{}
+                        R.id.rb2x3 ->{ val intent=Intent(this, memoria2x3::class.java)
+                        startActivity(intent)}
 
                        else -> {val intent= Intent(this,memoria2x8::class.java)
                         startActivity(intent)   }       }})

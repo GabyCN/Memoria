@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/tvCorazon">
 
         <RadioButton
             android:id="@+id/rb2x2"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:text=" 2 x 2"
             android:textSize="40sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/rb2x3"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text=" 2 x 3"
             android:textSize="40sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/rb2x4"
@@ -63,9 +63,7 @@
             android:layout_height="wrap_content"
             android:text=" 2 x 4"
             android:textSize="40sp"
-            android:textStyle="bold"/>
-
-
+            android:textStyle="bold" />
 
 
     </RadioGroup>

@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.memoria.memoria2x3" />
+        <activity android:name="com.example.memoria.memoria2x2" />
         <activity android:name="com.example.memoria.memoria2x8" />
         <activity android:name="com.example.memoria.MainActivity" >
             <intent-filter>

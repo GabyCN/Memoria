@@ -749,7 +749,7 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btnJugar
+id btnNuevo
 id btnREANUDAR
 id buttonPanel
 id center_vertical
@@ -922,6 +922,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_memoria2x2
+layout activity_memoria2x3
 layout custom_dialog
 layout memoria2x8
 layout notification_action
