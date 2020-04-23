@@ -1,10 +1,17 @@
 package com.example.memoria
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
+import kotlinx.android.synthetic.main.activity_memoria2x2.*
 import kotlinx.android.synthetic.main.memoria2x8.*
+import kotlinx.android.synthetic.main.memoria2x8.btnREANUDAR
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxFOUR
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxONE
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxTWO
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxThree
 
 class memoria2x2 : AppCompatActivity() {
     var mutableList: MutableList<Int> = mutableListOf()
@@ -21,6 +28,11 @@ class memoria2x2 : AppCompatActivity() {
         setListener()
         btnREANUDAR.setOnClickListener{
             reanudar(it)
+        }
+
+        btnNuevo.setOnClickListener{
+            val intent=Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
         imagenes.shuffle()
     }
