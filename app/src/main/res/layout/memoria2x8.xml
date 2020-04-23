@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/tvBoxTWO"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/margen"
         android:background="@drawable/corazon"
@@ -20,8 +20,8 @@
 
     <TextView
         android:id="@+id/tvBoxONE"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="@dimen/margen"
         android:layout_marginTop="16dp"
         android:background="@drawable/corazon"
@@ -30,8 +30,8 @@
 
     <TextView
         android:id="@+id/tvBoxThree"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="@dimen/margen"
         android:layout_marginTop="16dp"
         android:background="@drawable/corazon"
@@ -40,8 +40,8 @@
 
     <TextView
         android:id="@+id/tvBoxFOUR"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="@dimen/margen"
         android:background="@drawable/corazon"
@@ -52,8 +52,8 @@
 
     <TextView
         android:id="@+id/tvBoxFIVE"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="@dimen/margen"
         android:layout_marginTop="@dimen/margen_TOP"
         android:background="@drawable/corazon"
@@ -62,8 +62,8 @@
 
     <TextView
         android:id="@+id/tvBoxSIX"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="@dimen/margen_TOP"
         android:layout_marginEnd="@dimen/margen"
         android:background="@drawable/corazon"
@@ -74,8 +74,8 @@
 
     <TextView
         android:id="@+id/tvBoxSEVEN"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="@dimen/margen"
         android:layout_marginTop="@dimen/margen_TOP"
         android:background="@drawable/corazon"
@@ -84,8 +84,8 @@
 
     <TextView
         android:id="@+id/tvBoxEIGHT"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="@dimen/margen"
         android:layout_marginTop="@dimen/margen_TOP"
         android:layout_marginEnd="16dp"
@@ -100,11 +100,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/margen"
+        android:layout_marginStart="92dp"
         android:text="REANUDAR"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnNuevo1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNuevo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUEVO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toEndOf="@+id/btnREANUDAR"
+        app:layout_constraintTop_toBottomOf="@+id/tvBoxEIGHT"
+        app:layout_constraintVertical_bias="0.319" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

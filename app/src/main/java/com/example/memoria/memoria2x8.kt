@@ -1,11 +1,20 @@
 package com.example.memoria
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_memoria2x3.*
 import kotlinx.android.synthetic.main.memoria2x8.*
+import kotlinx.android.synthetic.main.memoria2x8.btnREANUDAR
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxFIVE
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxFOUR
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxONE
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxSIX
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxTWO
+import kotlinx.android.synthetic.main.memoria2x8.tvBoxThree
 
 class memoria2x8 : AppCompatActivity() {
 
@@ -27,6 +36,10 @@ class memoria2x8 : AppCompatActivity() {
         setListener()
         btnREANUDAR.setOnClickListener {
             reanudar(it)
+        }
+        btnNuevo1.setOnClickListener{
+            val intent= Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
         imagenes.shuffle()
     }

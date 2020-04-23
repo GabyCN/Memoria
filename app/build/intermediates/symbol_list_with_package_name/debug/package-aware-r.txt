@@ -750,6 +750,7 @@ id beginning
 id blocking
 id bottom
 id btnNuevo
+id btnNuevo1
 id btnREANUDAR
 id buttonPanel
 id center_vertical
