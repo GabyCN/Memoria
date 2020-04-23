@@ -6,105 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvBoxTWO"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="@dimen/margen"
-        android:background="@drawable/corazon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tvBoxTWO"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvBoxONE"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/corazon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvBoxThree"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:background="@drawable/corazon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxTWO" />
-
-    <TextView
-        android:id="@+id/tvBoxFOUR"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:layout_marginEnd="@dimen/margen"
-        android:background="@drawable/corazon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tvBoxThree"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxONE" />
-
-    <TextView
-        android:id="@+id/tvBoxFIVE"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:background="@drawable/corazon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxThree" />
-
-    <TextView
-        android:id="@+id/tvBoxSIX"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:layout_marginEnd="@dimen/margen"
-        android:background="@drawable/corazon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tvBoxFIVE"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxFOUR" />
-
-    <TextView
-        android:id="@+id/tvBoxSEVEN"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:background="@drawable/corazon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxFIVE" />
-
-    <TextView
-        android:id="@+id/tvBoxEIGHT"
-        android:layout_width="@dimen/tamaño_caja"
-        android:layout_height="@dimen/tamaño_caja"
-        android:layout_marginStart="@dimen/margen"
-        android:layout_marginTop="@dimen/margen_TOP"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/corazon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/tvBoxSEVEN"
-        app:layout_constraintTop_toBottomOf="@+id/tvBoxSIX" />
-
-    <Button
-        android:id="@+id/btnREANUDAR"
+        android:id="@+id/tvTittle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/margen"
-        android:text="REANUDAR"
+        android:layout_marginTop="32dp"
+        android:text="¿Cual quieres jugar?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Titulo" />
+
+
+    <TextView
+        android:id="@+id/tvCorazon"
+        android:layout_width="@dimen/tamaño_caja"
+        android:layout_height="@dimen/tamaño_caja"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/corazon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTittle" />
+
+    <RadioGroup
+        android:id="@+id/rgTodo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <RadioButton
+            android:id="@+id/rb2x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2 x 2"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/rb2x3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2 x 3"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/rb2x4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2 x 4"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+
+
+
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
