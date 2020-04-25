@@ -1,6 +1,6 @@
 # Memoria
 
-Juego de memoria, probando diferentes maneraas de hacerlo
+Juego de memoria, probando diferentes maneras de hacerlo
 
 
 ## Ejecutando las pruebas ⚙️
